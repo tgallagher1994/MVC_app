@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\views\\task\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|c:\\users\\shanc\\onedrive\\desktop\\dotnet_nine_app\\webapp_mvc\\webapp_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4AAFBE9E-B243-4E7A-8EE4-468A2F7711EB}|webapp_MVC\\webapp_MVC.csproj|solutionrelative:webapp_mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "webapp_MVC\\Views\\Task\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "webapp_MVC\\Views\\Task\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T23:35:53.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "webapp_MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "webapp_MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T21:56:58.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "webapp_MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "webapp_MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T21:56:25.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "webapp_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "webapp_MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:14:12.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Create.cshtml",
+              "RelativeDocumentMoniker": "webapp_MVC\\Views\\Task\\Create.cshtml",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Create.cshtml",
+              "RelativeToolTip": "webapp_MVC\\Views\\Task\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T16:07:33.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "webapp_MVC\\Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "webapp_MVC\\Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T15:38:21.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "webapp_MVC\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "webapp_MVC\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T22:01:23.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "webapp_MVC\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\shanc\\OneDrive\\Desktop\\dotnet_nine_app\\webapp_MVC\\webapp_MVC\\Models\\TaskItem.cs",
+              "RelativeToolTip": "webapp_MVC\\Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T21:58:02.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
