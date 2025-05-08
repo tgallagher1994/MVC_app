@@ -1,0 +1,34 @@
+﻿@model List<webapp_MVC.Models.TaskItem>
+
+
+<h2>Task List</h2>
+
+<a href="/Task/Create">Create New Task</a>
+
+
+	@foreach (var task in Model)
+	{
+		<li>
+			<strong>@task.Title</strong> - @task.Description
+			(@(task.IsComplete ? "Done" : "Not Done"))
+	
+
+
+	
+		
+			
+			<form asp-action="Delete" asp-route-id="@task.Id" method="post" style="display:inline">
+				<button type="submit">Delete</button>
+			</form>
+			
+			@if (!task.IsComplete)
+			{
+				<form asp-action="MarkDone" asp-route-id="@task.Id" method ="post" style = "display:inline">
+					<button type="submit">Mark Done</button>
+				</form>
+			}
+			
+			<a asp-action="Edit" asp-route-id="@task.Id">Edit</a>
+		</li>
+	}
+</>
