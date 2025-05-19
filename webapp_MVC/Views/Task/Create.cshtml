@@ -1,37 +1,60 @@
 ﻿@model webapp_MVC.Models.TaskItem
 
-<h2>Create Task</h2>
+<h2 class="mt-3">Create New Task</h2>
 
-<form asp-action="Create" method="post">
+<form asp-action="Create" method="post" class="mt-4">
 	@Html.AntiForgeryToken()
+    
+	<!-- Display validation summary -->
+	<div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
 
-	<!-- Show top-level model errors (e.g., UserId is null) -->
-	<div asp-validation-summary="ModelOnly" class="text-danger"></div>
-
-	<div>
-		<label asp-for="Title"></label>
-		<input asp-for="Title" class="form-control" />
+	<div class="form-group mb-3">
+		<label asp-for="Title" class="form-label">Task Title</label>
+		<input asp-for="Title" class="form-control" placeholder="Enter task title..." />
 		<span asp-validation-for="Title" class="text-danger"></span>
 	</div>
 
-	<div>
-		<label asp-for="Description"></label>
-		<input asp-for="Description" class="form-control" />
+	<div class="form-group mb-3">
+		<label asp-for="Description" class="form-label">Description</label>
+		<textarea asp-for="Description" class="form-control" rows="3" placeholder="Enter task description..."></textarea>
 		<span asp-validation-for="Description" class="text-danger"></span>
 	</div>
 
-	<div>
-		<label asp-for="IsComplete"></label>
-		<input asp-for="IsComplete" type="checkbox" />
-		<span asp-validation-for="IsComplete" class="text-danger"></span>
+	<div class="form-group form-check mb-4">
+		<input asp-for="IsComplete" class="form-check-input" type="checkbox" />
+		<label asp-for="IsComplete" class="form-check-label ms-2">Mark as Complete</label>
 	</div>
 
-	<button type="submit" class="btn btn-primary">Create</button>
+	<button type="submit" class="btn btn-success me-2">Create Task</button>
+	<a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </form>
 
-<a href="/Task">Back to List</a>
+<!-- toast notification -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+	<div id="errorToast" class="toast align-items-center text-bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="d-flex">
+			<div class="toast-body">
+				Please fill in all required fields before submitting the form.
+			</div>
+			<button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+	</div>"
+</div>
+<script>
+	document.querySelector("form").addEventListener("submit", function (event) {
+		const title = document.querySelector("input[name='Title']").value;
+		const description = document.querySelector("textarea[name='Description']").value;
+
+		if (!title || !description) {
+			event.preventDefault(); // Stop form submission
+			var toastElement = document.getElementById('errorToast');
+			var toast = new bootstrap.Toast(toastElement);
+			toast.show();
+		}
+	});
+</script>
+
 
 @section Scripts {
-	<!-- Include client-side validation -->
 	<partial name="_ValidationScriptsPartial" />
 }
