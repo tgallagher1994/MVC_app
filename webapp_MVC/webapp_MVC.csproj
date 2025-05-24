@@ -18,6 +18,8 @@
     <PackageReference Include="MySql.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet"  />
   </ItemGroup>
 
 </Project>
